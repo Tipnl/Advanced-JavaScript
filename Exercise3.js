@@ -46,17 +46,17 @@ alert(names); // John, Pete, Mary
 
 // Exercise 3.
 
-function getAverageAge(users) {
-  return users.reduce((x, y) => x + y.age, 0) / users.length;
-}
+// function getAverageAge(users) {
+//   return users.reduce((x, y) => x + y.age, 0) / users.length;
+// }
 
-let john = { name: "John", age: 25 };
-let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 29 };
+// let john = { name: "John", age: 25 };
+// let pete = { name: "Pete", age: 30 };
+// let mary = { name: "Mary", age: 29 };
 
-let arr = [john, pete, mary];
+// let arr = [john, pete, mary];
 
-alert(getAverageAge(arr));
+// alert(getAverageAge(arr));
 
 // Quite honestly, again, stackoverflow, i think i start to understand now tho.
 // x and y are interchangable, i can make them what i want.

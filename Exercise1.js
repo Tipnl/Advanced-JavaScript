@@ -50,7 +50,7 @@ let result = a + b < 4 ? "Below" : "Over";
 
 // Exercise 8
 
-let message =
+let message = (login) =>
   login == "Employee"
     ? "Hello"
     : login == "Director"
