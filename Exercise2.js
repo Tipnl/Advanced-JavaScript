@@ -2,10 +2,11 @@
 
 // Exersize 1:
 
-const checkAge = (age) =>
-  age > 18
+const checkAge = (age) => {
+  return age > 18
     ? true
     : confirm("Do you have your parents permission to access this page?");
+};
 
 // Exersize 2:
 // I'm not very good with maths, so to be honest this to me is hard to understand even without javascript.
